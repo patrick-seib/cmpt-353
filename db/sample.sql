@@ -22,20 +22,11 @@ SET time_zone = "+00:00";
 -- Database: `sampledb`
 --
 
--- --------------------------------------------------------
-
---
--- Table structure for table `sample`
---
 
 CREATE TABLE `sample` (
   `id` int(255) NOT NULL,
   `name` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `sample`
---
 
 INSERT INTO `sample` (`id`, `name`) VALUES
 (1, 'Mercury'),
@@ -47,23 +38,11 @@ INSERT INTO `sample` (`id`, `name`) VALUES
 (7, 'Uranus'),
 (8, 'Neptune');
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `sample`
---
 ALTER TABLE `sample`
   ADD PRIMARY KEY (`id`);
 
---
--- AUTO_INCREMENT for dumped tables
---
 
---
--- AUTO_INCREMENT for table `sample`
---
 ALTER TABLE `sample`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
